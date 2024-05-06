@@ -26,14 +26,22 @@
             "elements": [
               {
                 "name": "keyVaultName",
-                "type": "Microsoft.Common.TextBox",
+                "type": "Microsoft.Common.DropDown",
                 "label": "Key Vault Name",
                 "defaultValue": "",
                 "toolTip": "Specifies the name of the key vault.",
                 "constraints": {
                   "required": true,
-                  "regex": "",
-                  "validationMessage": ""
+                  "allowedValues": [
+                    {
+                      "label": "kv-apim-ss-dev",
+                      "value": "kv-apim-ss-dev"
+                    },
+                    {
+                      "label": "r-keyvault-ltcg-dev",
+                      "value": "r-keyvault-ltcg-dev"
+                    }
+                  ]
                 },
                 "visible": true
               },
