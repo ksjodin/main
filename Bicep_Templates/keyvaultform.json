@@ -158,12 +158,12 @@
                   "required": false,
                   "allowedValues": [
                     {
-                      "label": "Dev",
-                      "value": 24164b62-af26-4788-95d8-8e7b1eccf531
+                      "label": "24164b62-af26-4788-95d8-8e7b1eccf531",
+                      "value": true
                     },
                     {
-                      "label": "Test",
-                      "value": b60079c9-831a-41a8-966a-187f6e3ee54d
+                      "label": "b60079c9-831a-41a8-966a-187f6e3ee54d",
+                      "value": true
                     }
                   ]
                 },
